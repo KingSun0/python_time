@@ -1,0 +1,11 @@
+import time
+# i = "1517273001"
+# CreateTime = time.strftime("%Y-%m-%d %H:%M:%S", i)
+# print(CreateTime)
+
+
+timeStamp = 1381419600
+print(type(timeStamp))
+timeArray = time.localtime(timeStamp)
+otherStyleTime = time.strftime("%Y-%m-%d %H:%M:%S", timeArray)
+print(otherStyleTime)
